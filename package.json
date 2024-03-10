@@ -2,9 +2,9 @@
     "author": "alexasterisk",
     "license": "MIT",
     "scripts": {
-        "clean": "rm -rf Packages | rm Logger.rbxm Logger.tar",
+        "clean": "rm -rf Packages | rm Logger.rbxm Logger.tar.gz",
         "build": "npm run clean | wally install && rojo build --output Logger.rbxm",
-        "deploy": "npm run build && wally package --output Logger.tar && wally publish"
+        "deploy": "npm run build && wally package --output Logger.tar.gz"
     },
     "repository": {
         "type": "git",
