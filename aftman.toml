@@ -1,0 +1,6 @@
+# https://github.com/LPGhatguy/aftman
+
+[tools]
+rojo = "rojo-rbx/rojo@7.4.1"
+wally = "upliftgames/wally@0.3.2"
+selene = "kampfkarren/selene@0.26.1"
